@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(215, 237, 250)
+}
+
+main {
+    margin:7rem 0;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.img-wrapper {
+  height: 13rem;
+  overflow: hidden;
+}
+
+.card {
+  border: 5px solid rgb(0, 162, 255);
+  border-radius: 25px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.card h4,
+.home-item.card p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hide {
+  display: none;
+}
+
+.comments-content {
+  max-height: 25rem;
+  overflow-y: scroll;
+}
+
+.guest-content {
+  max-height: 100%;
+  overflow-y: scroll;
+}
+
+#comments button {
+  width: 3.9rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00518028;
+}
